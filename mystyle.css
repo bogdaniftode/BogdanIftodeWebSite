@@ -5,7 +5,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
-    min-width:640px;
+    min-width: 640px;
 }
 
 
@@ -47,8 +47,8 @@ header {
 
     header #titlestuff {
         text-align: center;
-        background-color:cadetblue;
-        border-radius: 60%;
+        background-color: cadetblue;
+        border-radius: 60%;        
         font-family: 'Modern No. 20';
         color: #ffffff;
     }
@@ -123,7 +123,7 @@ aside#skills {
     line-height: 1.3;
     border: inset;
     padding: 1%;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
 }
 
     aside#skills h2 {
@@ -189,6 +189,24 @@ article#firms {
     }
 
 
+article#myinterests {
+    background: #cbd385;
+    background-image: url("stylebackground5.jpg");
+    background-size: 100% 100%;
+    color: #ffffff;
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+    padding: 0.5%;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    border: inset;
+}
+
+    article#myinterests h1 {
+        font-size: 25px;
+    }
 
 aside#computerskills {
     background-color: #000000;
@@ -233,7 +251,7 @@ aside#training {
 }
 
     aside#training h2 {
-        color: #7eef68;        
+        color: #7eef68;
         font-size: 15px;
     }
 
@@ -263,30 +281,12 @@ aside#education {
         font-size: 15px;
     }
 
-    aside#education h1 
-    {
+    aside#education h1 {
         font-size: 25px;
     }
 
     aside#education h3 {
         font-size: 17px;
-    }
-
-aside#interests {
-    background-color: #000000;
-    background-image: url("stylebackground5.jpg");
-    color: #ffffff;
-    float: left;
-    width: 40%;
-    margin-top: 10px;
-    line-height: 1.3;
-    border: inset;
-    padding: 1%;
-    margin-bottom: 40px;
-}
-
-    aside#interests h1 {
-        font-size: 25px;
     }
 
 #copyright footer {
@@ -295,8 +295,8 @@ aside#interests {
 }
 
     #copyright footer p {
-        font-family: 'Times New Roman';                
+        font-family: 'Times New Roman';
         font-size: 16px;
         text-align: center;
-        color:#6f6f6f;
+        color: #6f6f6f;
     }
