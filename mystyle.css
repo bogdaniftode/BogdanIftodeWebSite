@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
+    min-width:640px;
 }
 
 
@@ -21,6 +22,7 @@ body {
 
 header {
     background: #000000;
+    background-image: url("blackbackground3.jpg");
     color: #ffffff;
     padding-top: 30px;
     min-height: 140px;
@@ -30,7 +32,7 @@ header {
         color: #ffffff;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     header ul {
@@ -45,8 +47,10 @@ header {
 
     header #titlestuff {
         text-align: center;
-        background: #e6eb59;
-        color: #0a0a0a;
+        background-color:cadetblue;
+        border-radius: 60%;
+        font-family: 'Modern No. 20';
+        color: #ffffff;
     }
 
         header #titlestuff h1 {
@@ -61,7 +65,7 @@ header {
 
     header a:hover {
         color: #ffd800;
-        font-wight: bold;
+        font-weight: bold;
         text-decoration: overline;
     }
 
@@ -78,6 +82,7 @@ header {
     min-height: 100px;
     color: #ffffff;
     background: #000000;
+    background-image: url("blackbackground3.jpg");
 }
 
     #presentation h1 {
@@ -99,6 +104,7 @@ article#aboutme {
     padding: 0.5%;
     padding-top: 30px;
     margin-bottom: 20px;
+    background-image: url("blackbackground3.jpg");
 }
 
     article#aboutme img {
@@ -110,13 +116,14 @@ article#aboutme {
     }
 
 aside#skills {
+    background-image: url("blackbackground3.jpg");
     float: right;
     width: 40%;
     margin-top: 10px;
     line-height: 1.3;
     border: inset;
     padding: 1%;
-    margin-bottom: 40px;
+    margin-bottom: 40px;   
 }
 
     aside#skills h2 {
@@ -126,19 +133,24 @@ aside#skills {
     }
 
     aside#skills p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
 
 #workexperience {
     color: #000000;
-    background: #e9e9e9;
+    background-image: url("stylebackground1.jpg");
+    background-size: 100% 100%;
 }
 
 article#firms {
+    background: #cbd385;
+    background-image: url("stylebackground5.jpg");
+    background-size: 100% 100%;
+    color: #ffffff;
     text-align: left;
     float: left;
-    width: 62%;
+    width: 50%;
     margin-top: 60px;
     padding: 0.5%;
     padding-top: 30px;
@@ -147,7 +159,7 @@ article#firms {
 }
 
     article#firms h3 {
-        color: Highlight;
+        color: #7eef68;
         font-size: 20px;
     }
 
@@ -164,6 +176,10 @@ article#firms {
     }
 
     article#firms li {
+        color: #ffffff;
+        font-weight: bold;
+        background-image: url("stylebackground5.jpg");
+        background-size: 100% 100%;
     }
 
     article#firms hr {
@@ -173,48 +189,51 @@ article#firms {
     }
 
 
+
 aside#computerskills {
-    float: right;
-    background: #000000;
+    background-color: #000000;
+    background-image: url("stylebackground5.jpg");
     color: #ffffff;
-    width: 20%;
+    float: right;
+    width: 40%;
     margin-top: 70px;
-    margin-right: 225px;
     line-height: 1.3;
     border: inset;
     padding: 1%;
+    margin-bottom: 40px;
 }
 
     aside#computerskills h2 {
         font-size: 24px;
-        font-wight: bold;
+        font-weight: bold;
         margin-left: 25px;
     }
 
 
 
     aside#computerskills #basic {
-        color: #87f5ae;
+        color: #f4fb55;
     }
 
     aside#computerskills #advanced {
-        color: #15e41f;
+        color: #f5d621;
     }
 
 aside#training {
-    float: right;
-    background: #000000;
+    background-color: #000000;
+    background-image: url("stylebackground5.jpg");
     color: #ffffff;
-    width: 32%;
-    margin-top: 30px;
-    margin-right: 20px;
+    float: right;
+    width: 40%;
+    margin-top: 10px;
     line-height: 1.3;
     border: inset;
     padding: 1%;
+    margin-bottom: 40px;
 }
 
     aside#training h2 {
-        color: Highlight;
+        color: #7eef68;        
         font-size: 15px;
     }
 
@@ -226,58 +245,53 @@ aside#training {
         font-size: 17px;
     }
 
-#education-interests {
-    color: #000000;
-    background: #e9e9e9;
-}
-
-article#myeducation {
-    text-align: left;
-    float: left;
-    width: 62%;
+aside#education {
+    background-color: #000000;
+    background-image: url("stylebackground5.jpg");
+    color: #ffffff;
+    float: right;
+    width: 40%;
     margin-top: 10px;
-    padding: 0.5%;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    line-height: 1.3;
     border: inset;
+    padding: 1%;
+    margin-bottom: 40px;
 }
 
-#education-interests article#myeducation h1 {
-    color: #000000;
-    font-size: 25px;
-}
+    aside#education h2 {
+        color: #7eef68;
+        font-size: 15px;
+    }
 
-#education-interests article#myeducation h2 {
-    color: Highlight;
-    font-size: 15px;
-}
+    aside#education h1 
+    {
+        font-size: 25px;
+    }
 
-#education-interests article#myeducation h3 {
-    font-size: 17px;
-}
+    aside#education h3 {
+        font-size: 17px;
+    }
 
 aside#interests {
+    background-color: #000000;
+    background-image: url("stylebackground5.jpg");
     color: #ffffff;
-    background: #000000;
-    text-align: left;
-    float: right;
-    width: 33%;
+    float: left;
+    width: 40%;
     margin-top: 10px;
-    padding: 0.5%;
-    padding-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    line-height: 1.3;
     border: inset;
+    padding: 1%;
+    margin-bottom: 40px;
 }
 
     aside#interests h1 {
-        color: #ffffff;
         font-size: 25px;
     }
 
 #copyright footer {
     color: #000000;
-    background: #e9e9e9;
+    background-color: #e9e9e9;
 }
 
     #copyright footer p {

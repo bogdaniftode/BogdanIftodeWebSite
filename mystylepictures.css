@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     background-color: #ffffff;
+    min-width: 640px;
 }
 
 
@@ -21,6 +22,7 @@
 
 header {
     background: #000000;
+    background-image: url("blackbackground3.jpg");
     color: #ffffff;
     padding-top: 30px;
     min-height: 140px;
@@ -30,7 +32,7 @@ header {
         color: #ffffff;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     header ul {
@@ -45,8 +47,10 @@ header {
 
     header #titlestuff {
         text-align: center;
-        background: #e6eb59;
-        color: #0a0a0a;
+        background-color: cadetblue;
+        border-radius: 60%;
+        font-family: 'Modern No. 20';
+        color: #ffffff;
     }
 
         header #titlestuff h1 {

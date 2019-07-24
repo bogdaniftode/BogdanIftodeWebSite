@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Iftode Bogdan Webpage - Contact</title>
-    <link rel="stylesheet" href="./stylecontact.css" />
+    <link rel="stylesheet" type="text/css" href="mystylecontact.css"/>
 </head>
 <body>
     <header>
@@ -25,8 +25,8 @@
 
     <section id="dates">
         <div class="container">
-            <form action="sendmail.php">
-                <article id="userdates">
+            <article id="userdates">
+                <form action="sendmail.php">
                     <h1>CONTACT</h1>
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Enter your name.." style="width:30%">
@@ -48,17 +48,11 @@
                     <textarea id="subject" name="subject" placeholder="Your message.."></textarea>
 
                     <input type="submit" value="Send" style="display:block" style="width:30%">
-            </form>            
+                </form>
             </article>
         </div>
     </section>
 
-    <section id="copyright">
-        <footer>
-            <div class="container"></div>
-            <p>Copyright 2019 Iftode Bogdan-Mihai</p>
-            </div>
-        </footer>
-    </section>
+    
 </body>
 </html>
