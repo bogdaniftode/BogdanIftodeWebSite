@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iftode Bogdan Webpage - Contact</title>
+    <link rel="stylesheet" type="text/css" href="mystylecontact.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="titlestuff">
+                <h1>Welcome to Iftode Bogdan personal website !</h1>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="creations.html"><span>Creations</span></a></li>
+                        <li><a href="pictures.html"><span>Pictures</span></a></li>
+                        <li><a href="contact.html"><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <section id="dates">
+        <div class="container">
+            <article id="userdates">
+                <form action="sendmail.php">
+                    <h1>CONTACT</h1>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your name.." style="width:30%">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name.." style="width:30%">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="romania">Romania</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="germany">Germany</option>
+                        <option value="england">England</option>
+                        <option value="othercountry">Other Country</option>
+                    </select>
+
+                    <label id="thesubject" for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Your message.."></textarea>
+
+                    <input type="submit" value="Send" style="display:block" style="width:30%">
+                </form>
+            </article>
+        </div>
+    </section>
+
+    
+</body>
+</html>
