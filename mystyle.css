@@ -126,8 +126,7 @@ aside#skills {
     margin-bottom: 40px;
 }
 
-    aside#skills h2 {
-        margin-top: 20px;
+    aside#skills h2 {     
         font-size: 30px;
         margin-bottom: 10px;
     }
@@ -226,8 +225,6 @@ aside#computerskills {
         font-weight: bold;
         margin-left: 25px;
     }
-
-
 
     aside#computerskills #basic {
         color: #f4fb55;
