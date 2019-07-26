@@ -78,78 +78,44 @@ header {
         margin bottom:0;
     }
 
-input[type=text], select, textarea {
-    width: 15%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+div.elem-group {
+    margin: 40px 0;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
+label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 500px;
+    padding: 8px;
+}
+
+textarea {
+    height: 250px;
+}
+
+button {
+    height: 50px;
+    background: green;
     color: white;
-    padding: 12px 20px;
-    border: none;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
     border-radius: 4px;
     cursor: pointer;
 }
 
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
-
-#dates article#userdates {
-    background-color: #000000;
-    float: left;
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 20px;
-    border: inset;
-}
-
-    #dates article#userdates h1 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 24px;
-        color: #ffffff;
-        padding-left: 30px;
-    }
-
-    #dates article#userdates label {
-        padding-left: 30px;
-        display: block;
-        color: #ffffff;
-    }
-
-    #dates article#userdates input {
-        text-align: left;
-        margin-left: 25px;
-    }
-
-    #dates article#userdates input {
-        text-align: left;
-        margin-left: 25px;
-    }
-
-        #dates article#userdates input[type="submit"] {
-            margin-bottom: 25px;
-        }
-
-    #dates article#userdates select {
-        padding: 10px;
-        outline: none;
-        margin-left: 25px;
-    }
-
-    #dates article#userdates textarea {
-        padding: 10px;
-        outline: none;
-        margin-left: 25px;
-        width: 70%;
-        height: 200px;
+    button:hover {
+        border: 2px solid black;
     }
 
 #copyright footer {

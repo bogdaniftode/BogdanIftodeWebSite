@@ -12,9 +12,7 @@
                 <h1>Welcome to Iftode Bogdan personal website !</h1>
                 <nav>
                     <ul>
-                        <li class="current"><a href="index.html"><span>Home</span></a></li>
-                        <li><a href="creations.html"><span>Creations</span></a></li>
-                        <li><a href="pictures.html"><span>Pictures</span></a></li>
+                        <li><a href="index.html"><span>Home</span></a></li>          
                         <li><a href="contact.html"><span>Contact</span></a></li>
                     </ul>
                 </nav>
@@ -23,35 +21,36 @@
         <hr>
     </header>
 
-    <section id="dates">
-        <div class="container">
-            <article id="userdates">
-                <form action="sendmail.php">
-                    <h1>CONTACT</h1>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Enter your name.." style="width:30%">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name.." style="width:30%">
-
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="romania">Romania</option>
-                        <option value="usa">USA</option>
-                        <option value="canada">Canada</option>
-                        <option value="germany">Germany</option>
-                        <option value="england">England</option>
-                        <option value="othercountry">Other Country</option>
-                    </select>
-
-                    <label id="thesubject" for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Your message.."></textarea>
-
-                    <input type="submit" value="Send" style="display:block" style="width:30%">
-                </form>
-            </article>
+    <form action="contact.php" method="POST">
+        <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="visitor_name" pattern=[A-Z\sa-z]{3,20} required>
         </div>
-    </section>
+        <div class="elem-group">
+            <label for="email">Your E-mail</label>
+            <input type="email" id="email" name="visitor_email" required>
+        </div>
+        <div class="elem-group">
+            <label for="countries">Choose your country</label>
+            <select id="countries" name="choose_country" required>
+                <option value="">Select a country</option>
+                <option value="Romania">Romania</option>
+                <option value="Usa">U.S.A.</option>
+                <option value="England">England</option>
+                <option value="Canada">Canada</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Poland">Poland</option>
+                <option value="Sweden">Sweden</option>
+                <option value="OtherCountry">Other Country</option>
+            </select>
+        </div>        
+        <div class="elem-group">
+            <label for="message">Write your message</label>
+            <textarea id="message" name="visitor_message" placeholder="Enter your message here" required></textarea>
+        </div>
+        <input type="submit" value="Send"><input type="reset" value="Clear">
+    </form>
 
     
 </body>
