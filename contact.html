@@ -21,16 +21,12 @@
         <hr>
     </header>
 
-    <form action="contact.php" method="POST">
-        <div class="elem-group">
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contact.php">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="visitor_name" pattern=[A-Z\sa-z]{3,20} required>
-        </div>
-        <div class="elem-group">
             <label for="email">Your E-mail</label>
             <input type="email" id="email" name="visitor_email" required>
-        </div>
-        <div class="elem-group">
             <label for="countries">Choose your country</label>
             <select id="countries" name="choose_country" required>
                 <option value="">Select a country</option>
@@ -44,13 +40,11 @@
                 <option value="Sweden">Sweden</option>
                 <option value="OtherCountry">Other Country</option>
             </select>
-        </div>        
-        <div class="elem-group">
             <label for="message">Write your message</label>
             <textarea id="message" name="visitor_message" placeholder="Enter your message here" required></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-    </form>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 
     
 </body>
