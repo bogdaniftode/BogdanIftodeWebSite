@@ -1,0 +1,144 @@
+body 
+{ 
+    background-image: url (background.jpg)
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.corp {	
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+    }
+	
+#titlu {
+     border-color: #FEC3AC;
+     border-width:6px;
+	 border-style:groove;
+	 margin:5px;
+     margin-top:5px;
+     min-height: 150px;
+    }
+	
+article#licenta {
+	 width:100%;
+    }
+
+article#licenta h1 {
+     font-family:raleway;
+     font-size:30px;
+	 color:#FEC3AC;
+	 text-align:center;
+	 letter-spacing: 6px;
+    }
+	
+	
+article#licenta nav {
+     float:left;
+	 margin-top:30px;
+	}
+	
+article#licenta ul {
+     margin: 0;
+     padding: 0;
+}
+
+article#licenta li {
+     display: inline;
+     padding: 25px 25px 25px 60px;
+}
+
+article#licenta a {
+     color: black;
+	 padding:7px;
+	 font-weight: bold;
+	 overflow: hidden;
+	 border-style:outset;
+	 border-color:#FEC3AC;
+	 background:#FEC3AC;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 20px;
+}
+
+article#licenta a:hover {
+     color: #960018;
+     font-weight: bold;
+     text-decoration: overline;
+	}
+	
+#ghid {
+     margin-top:25px;
+     min-height:900px;
+	 margin-left:5px;
+	 margin-right:5px;
+	 margin-bottom:50px;
+
+}
+
+article#structura {
+     margin-top:10px;
+
+	 width:100%;
+	 
+}
+
+article#structura h2 {
+     text-align:center;
+	 color:#FEC3AC;
+	 font-size:25px;
+}
+
+
+
+article#structura p1 {
+     font-size:18px;
+	 color:#FEC3AC;
+	 margin-left:15px;
+}
+
+article#structura h3 {
+     margin-left:15px;
+	 color:#FEC3AC;
+	 font-size:20px;
+}
+
+
+article#structura p2 {
+     font-size:18px;
+	 color:#FEC3AC;
+	 margin-left:15px;
+}
+
+article#structura p3 {
+     font-size:18px;
+	 color:#FEC3AC;
+	 margin-left:15px;
+}
+
+article#structura h4 {
+     margin-left:15px;
+	 color:#FEC3AC;
+	 font-size:20px;
+}
+
+article#structura p4 {
+     font-size:18px;
+	 color:#FEC3AC;
+	 margin-left:15px;
+}
+
+article#structura h5 {
+     margin-left:15px;
+	 color:#FEC3AC;
+	 font-size:20px;
+}
+
+article#structura p5 {
+     font-size:18px;
+	 color:#FEC3AC;
+	 margin-left:15px;
+}

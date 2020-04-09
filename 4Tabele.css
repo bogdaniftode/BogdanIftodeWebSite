@@ -1,0 +1,83 @@
+body 
+{ 
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.corp {	
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+    }
+	
+#titlu {
+     margin-top:5px;
+     min-height: 170px;
+     background:#99ccff;
+	}
+	
+article#covid {
+     
+     height:100px;
+	 text-align: center;
+	 line-height: 0.5;
+	 letter-spacing: 4px;
+	 padding:5px;
+	 margin-top:15px;
+	 width: 100%;
+	}
+	
+article#covid h1 {
+     color:red;
+     font-family:raleway;
+     font-size: 35px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 letter-spacing: 8px;
+	}
+	
+#prezentare {
+     margin-top:10px;
+	 min-height:200px;
+	 text-align:left;
+    }
+	
+article#definitie {
+     
+	 width:100%;
+	 padding-bottom:5px;
+	 margin-top:5px;
+	}
+	
+article#definitie p2 {
+     font-size:17px;
+	 margin-left:5px;
+}
+
+article#definitie p3 {
+     color:red;
+    }
+	
+#situatie {
+     
+     margin-top:10px;
+	 min-height:870px;
+	 
+}
+
+article#tabele {
+    
+	 margin:5px;
+	 
+	 width:100%;
+	
+}
+
+article#tabele h2 {
+     margin-left:10px;
+	 
+}
+

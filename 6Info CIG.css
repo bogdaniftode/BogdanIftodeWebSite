@@ -1,0 +1,101 @@
+body 
+{ 
+    
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.corp {	
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+    }
+	
+#titlu {
+     margin-top:5px;
+     min-height: 170px;
+    }
+
+article#logo {
+     float:left;
+	 text-align: center; 
+     width:100%;
+	 margin-top:5px;
+	}
+
+article#logo img {
+     float:left;
+     width:170px;
+	 height:139px;
+	 margin-top:10px;
+	 margin-left:150px;
+    }
+	
+	
+article#logo h1 {
+     font-size: 30px;
+	 margin-top:50px;
+	}
+	
+	
+
+	
+#istorie {
+     margin-top:20px;
+     border-width: 2px 0 2px 0;
+     border-style: solid;
+     border-color:black;
+     border-radius:25px;
+     background:#FCF3CF;
+	 margin-left:1px;
+	 margin-right:1px;
+     min-height:200px;
+}
+
+article#descriere {
+     margin-top:19px;
+	 margin-bottom:19px;
+     width:100%;
+}
+
+article#descriere p1 {
+     font-family: monotype corsiva;
+     padding:5px;
+     font-size:25px;
+	 margin-left:5px;
+}
+
+#licenta {
+     margin-top:10px;
+     min-height:700px;
+    }
+
+article#info {
+     
+     width:100%;
+	 height:700px;
+}
+
+article#info h2 {
+     text-align: center;
+     font-size:25px;
+}
+
+article#info ul {
+     font-color:red;
+   }
+article#info li {
+     color:red;
+     font-size:20px;
+}
+
+article#info p2{
+     margin-left:20px;
+}
+
+article#info p3 {
+     margin-left:25px;
+}

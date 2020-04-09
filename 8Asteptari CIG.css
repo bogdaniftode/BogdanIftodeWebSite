@@ -1,0 +1,54 @@
+body 
+{ 
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.corp {	
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+    }
+	
+#titlu {
+     margin-top:12px;
+     min-height: 150px;
+	}
+	
+article#proiect {
+	 text-align: center;
+	 line-height: 0.5;
+	 border-bottom: 1px solid;
+	 padding:5px;
+	 margin-top:15px;
+	 width: 100%;
+	}
+	
+article#proiect h1 {
+     font-family:raleway;
+     font-size: 40px;
+	}
+	
+#activitati {
+     margin-top:12px;
+	 min-height:500px;
+	 margin-bottom:50px;
+}
+
+
+article#text {
+     
+}
+
+article#text p1 {
+     color:silver;
+	 font-size:15px;
+}
+
+article#text p2 {
+     margin-left:15px;
+	 font-size:15px;
+}

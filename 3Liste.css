@@ -1,0 +1,152 @@
+body 
+{ 
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.corp {	
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+    }
+	
+#titlu {
+     margin-top:12px;
+     min-height: 150px;
+     background:#7FFFD4;
+	}
+	
+article#Facultate {
+     
+	 text-align: center;
+	 line-height: 0.5;
+	 letter-spacing: 4px;
+	 border-bottom: 1px solid;
+	 padding:5px;
+	 margin-top:15px;
+	 width: 100%;
+	}
+	
+article#Facultate h1 {
+     font-family:raleway;
+     font-size: 40px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 letter-spacing: 8px;
+	}
+	
+#definitie {
+     font-family: cursive;
+	 text-align: left; 
+     min-height: 250px;
+	 width:100%;
+	}
+	
+	
+article#text {
+     width: 100%;
+	}
+
+article#text dl {
+     margin-left:12px;
+    }
+article#text dt {
+     font-size:30px;
+    }	
+article#text dd {
+     font-size:25px;
+    }
+
+#poli-ase {
+     min-height: 540px;
+	 margin:auto;
+	 margin-top:10px;
+	}
+
+	
+article#ase {
+     font-family:raleway;
+     border-left: 6px solid #7FFFD4;
+     background-color: #7fd0ff38;
+	 float:left;
+	 margin-top:10px;
+	 width:47%;
+	}
+
+article#ase h2 {
+     margin-left:25px;
+	 font-size:17px;
+    }
+
+article#ase ul {
+     font-size:17px;
+    }
+
+
+aside#politehnica {
+     font-family:raleway;
+     border-left: 6px solid #7FFFD4;
+     background-color: #7fd0ff38;
+	 margin-top:10px;
+	 float:right;
+	 width:50%;    
+    }
+
+aside#politehnica h3 {
+     margin-left:25px;
+	 font-size:17px;
+    }
+
+aside#politehnica ul {
+     font-size:17px;
+    }
+
+
+#univ {
+     min-height: 560px;
+	 margin:auto;
+	 margin-top:10px;
+	 margin-bottom:50px;
+	}
+
+article#universitate {
+      font-family:raleway;
+     border-left: 6px solid #7FFFD4;
+     background-color: #7fd0ff38;
+	 float:left;
+	 margin-top:10px;
+	 width:47%;
+    }
+
+article#universitate h4 {
+     margin-left:25px;
+	 font-size:17px;
+    }
+
+article#universitate ol {
+     font-size:17px;
+    }
+aside#toate {
+     font-family:raleway;
+     border-left: 6px solid #7FFFD4;
+     background-color: #7fd0ff38;
+	 margin-top:10px;
+	 float:right;
+	 width:50%;    
+    }
+
+aside#toate h5 {
+     margin-left:25px;
+	 font-size:17px;
+    }
+aside#toate h6 {
+     margin-left:25px;
+	 font-size:17px;
+    }
+
+aside#toate ol {
+     font-size:17px;
+	}
